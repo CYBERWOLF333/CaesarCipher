@@ -48,4 +48,4 @@ with open("encrypted.txt", "r") as file:
 decrypted = decrypt(content, shift)
 
 with open("decrypted.txt", "w") as file:
-    file.write(encrypted)
+    file.write(decrypted)
